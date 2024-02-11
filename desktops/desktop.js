@@ -1,3 +1,4 @@
+//import  jquery from "https://js.cybozu.com/jquery/1.11.1/jquery.min.js";
 (function(PLUGIN_ID) {
     'use strict';
 

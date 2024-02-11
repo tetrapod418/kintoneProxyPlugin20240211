@@ -1,18 +1,15 @@
 {
     "manifest_version": 3,
     "version": "1.0",
-    "type": "APP",
     "name": "__MSG_extName",
     "description": "__MSG_extDescription",
     "default_locale":"ja",
-    "icon": "contents/icon.png",
-    "desktop": {
-        "js": [
-            "https://js.cybozu.com/jquery/1.11.1/jquery.min.js",
-            "desktops/desktop.js"
-        ]
+    "icons":  "contents/icon.png",
+    "background": {
+        "service_worker": "desktops/desktop.js",
+        "type": "module"
     },
-    "config":{
+    "options_page":{
         "html": "contents/setting.html",
         "js": [
             "https://js.cybozu.com/jquery/1.11.1/jquery.min.js",
