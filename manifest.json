@@ -9,16 +9,26 @@
         "service_worker": "desktops/desktop.js",
         "type": "module"
     },
-    "options_page":{
-        "html": "contents/setting.html",
-        "js": [
-            "https://js.cybozu.com/jquery/1.11.1/jquery.min.js",
+    "options_page": "contents/setting.html",
+    "web_accessible_resources": [
+        {
+          "resources": [
+            "images/*"
+          ],
+          "matches": [
+            "*://*/*"
+          ]
+        },
+        {
+          "resources": [
+            "config_css/51-modern-default.css",
             "config_js/config.js"
-        ],
-        "css": [
-            "config_css/51-modern-default.css"
-        ],
-         "required_params": []
-    },
+          ],
+          "matches": [
+            "https://example.com/*"
+          ]
+        }
+      ],
+    
     "content_security_policy": {}
 }
