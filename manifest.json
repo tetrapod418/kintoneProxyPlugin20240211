@@ -1,17 +1,9 @@
 {
-    "manifest_version": 1,
-    "version": 1,
+    "manifest_version": 3,
+    "version": 1.0,
     "type": "APP",
-    "name": {
-        "ja": "kintoneProxyサンプルプラグイン",
-        "en": "kintoneProxy sample plugin",
-        "zh": "kintoneProxy sample plugin"
-    },
-    "description": {
-        "ja": "kintone Proxy APIを用いた検証用プラグインです。",
-        "en": "This is a sample plugin for testing kintone Proxy API.",
-        "zh": "This is a sample plugin for testing kintone Proxy API."
-    },
+    "name": "__MSG_extName",
+    "description": "__MSG_extDescription",
     "icon": "contents/icon.png",
     "desktop": {
         "js": [
@@ -29,5 +21,6 @@
             "config_css/51-modern-default.css"
         ],
          "required_params": []
-    }
+    },
+    "content_security_policy": {}
 }
