@@ -4,6 +4,7 @@
     "type": "APP",
     "name": "__MSG_extName",
     "description": "__MSG_extDescription",
+    "default_locale":"ja",
     "icon": "contents/icon.png",
     "desktop": {
         "js": [
