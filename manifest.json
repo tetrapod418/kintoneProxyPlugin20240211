@@ -4,7 +4,10 @@
     "name": "__MSG_extName",
     "description": "__MSG_extDescription",
     "default_locale":"ja",
-    "icons":  "contents/icon.png",
+    "icons": {
+        "48": "contents/icon.png",
+        "128": "contents/icon_128.png"
+    },
     "background": {
         "service_worker": "desktops/desktop.js",
         "type": "module"
