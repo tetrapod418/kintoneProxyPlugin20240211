@@ -1,0 +1,10 @@
+{
+    "extName": {
+        "message":"kintoneProxy sample plugin",
+        "description": "extension name"
+    },
+    "extDescription": {
+        "message": "This is a sample plugin for testing kintone Proxy API.",
+        "description": "description of extension"
+    }
+}
