@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "version": 1.0,
+    "version": "1.0",
     "type": "APP",
     "name": "__MSG_extName",
     "description": "__MSG_extDescription",
